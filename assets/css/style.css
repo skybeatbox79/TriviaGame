@@ -4,8 +4,9 @@
 }
 
 h1 {
-    background-color: black;
-    color: white;
+    background-color: gray;
+    color: yellow;
+    border: blue 3px solid;
     margin: 0 auto;
     width: 60%;
 }
@@ -14,4 +15,11 @@ img {
     width: 300px;
     height: 300px;
     margin: 0 auto;
+}
+
+.choice:hover {
+    background-color: gray;
+    color: yellow;
+    border: blue 3px solid;
+    padding: 0px 5px 0px 5px;
 }
